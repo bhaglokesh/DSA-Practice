@@ -1,2 +1,2 @@
-Enter the element to search for : 
-Element found in the array 
+15 -2 5 0 4 1 Printing DONE
+4 9 3 6 2 Printing DONE
