@@ -8,7 +8,7 @@ int getMAx(int num[], int n){
 
 
     //default function
-    
+    //max(val,val2)
      int maxi= INT_MIN;
     for(int i=0;i<n;i++){
        maxi = max(maxi, num[i]);

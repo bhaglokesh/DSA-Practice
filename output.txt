@@ -1,2 +1,4 @@
-Max element is 8
-Min element is -9
+Inside the function: 
+10 2 3 
+Printing in main function: 
+10 2 3 
