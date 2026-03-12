@@ -1,4 +1,6 @@
 #include<iostream>
+//when you pass an array to a function, it is passed by reference. So any changes made to the array inside the function will affect the original array in the main function. This is because arrays are treated as pointers in C++.
+// and do change in function will reflect in main function as well. So we can say that arrays are passed by reference in C++.
 using namespace std;
 
 void update(int arr[], int n){

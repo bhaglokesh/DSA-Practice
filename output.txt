@@ -1,4 +1,1 @@
-Inside the function: 
-10 2 3 
-Printing in main function: 
-10 2 3 
+The sum of all elements in the array is: 15
