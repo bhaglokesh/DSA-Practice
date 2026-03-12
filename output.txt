@@ -1,1 +1,2 @@
-The sum of all elements in the array is: 15
+Enter the element to search for : 
+Element found in the array 
