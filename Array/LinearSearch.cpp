@@ -1,5 +1,6 @@
 #include<iostream>
 //Linear Search in an array
+// return true or false
 using namespace std;
 
 bool search(int arr[], int size, int key)

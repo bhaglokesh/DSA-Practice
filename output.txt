@@ -1,2 +1,2 @@
-Element not found
-Element found at index: 2
+Enter the element to search for : 
+Element not found in the array 
