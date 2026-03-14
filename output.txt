@@ -1,2 +1,2 @@
-2 5 4 9 6 7 0 1 Printing DONE
-33 11 76 8 43 Printing DONE
+Element not found
+Element found at index: 2

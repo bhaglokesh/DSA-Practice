@@ -17,6 +17,35 @@ void printArray(int arr[], int n){
 }
 int main(){
      
+    
+    int size =4;
+    int arr[size];
+    
+    
+    //Taking input in array
+    for(int i=0;i<size;i++)
+       cin >> arr[i];
+    
+    //Printing Output in array
+    for(int i =0;i<size;i++){
+        cout << arr[i]<< " ";
+    }
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //declaring array of size 10
     int arr[10]={1,2,3,4,5,6,7,8,9,10};
     arr[1]=0;
@@ -47,4 +76,6 @@ int main(){
     bool b[5] = {true,false,true,false,true};
 
      return 0;
+
+
 }
