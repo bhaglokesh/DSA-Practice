@@ -1,2 +1,6 @@
-Enter the element to search for : 
-Element not found in the array 
+3
+After push back 4
+First element: a
+Last element: c
+b
+a b c 
