@@ -19,7 +19,7 @@ void pattern1(){
 }
 
 //Hollow rectangle pattern
-void pattern2(){
+void pattern2(int rowCount, int colCount){
     //Hollow rectangle pattern
     // * * * * * 
     // *       * 
@@ -40,15 +40,15 @@ void pattern2(){
     // }
 
     //another approach
-    for(int row =0; row< 3;row++){
-        if(row == 0 || row ==2){
-            for(int col =0; col<5;col++){
+    for(int row =0; row< rowCount;row++){
+        if(row == 0 || row == rowCount-1){
+            for(int col =0; col<colCount;col++){
                 cout<<"* ";
             }
         }
         else{
            cout << "*";
-              for(int col =0; col<3;col++){
+              for(int col =0; col< colCount-2;col++){
                  cout<<"  ";
                 }
                 cout<<" * ";
@@ -60,7 +60,14 @@ void pattern2(){
 
 int main(){
 
-    pattern2();
+    int row;
+    int col;
+    cin >> row;
+    cin >> col;
+
+    pattern2(row, col);
+
+    return 0;
 
 
 
