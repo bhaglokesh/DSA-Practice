@@ -1,6 +1,1 @@
-3
-After push back 4
-First element: a
-Last element: c
-b
-a b c 
+Answer is : 10101

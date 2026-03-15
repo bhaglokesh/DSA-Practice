@@ -19,19 +19,27 @@ int main(){
 
 
     //character vector
-    vector<char> v={'a','b','c'};
+//     vector<char> v={'a','b','c'};
 
-    cout << v.size() << endl; // size of vector
+//     cout << v.size() << endl; // size of vector
     
-    v.push_back('d'); // adding element at the end of vector
-    cout <<"After push back "<< v.size() << endl; // size of vector after push back
-   v.pop_back(); // removing last element of vector
-    cout << "First element: " << v.front() << endl;
-    cout << "Last element: " << v.back() << endl;
-  cout<< v.at(1) << endl; // accessing element at index 1
-   for(char val: v){
-        cout<< val<<" " ;
-    }
+//     v.push_back('d'); // adding element at the end of vector
+//     cout <<"After push back "<< v.size() << endl; // size of vector after push back
+//    v.pop_back(); // removing last element of vector
+//     cout << "First element: " << v.front() << endl;
+//     cout << "Last element: " << v.back() << endl;
+//   cout<< v.at(1) << endl; // accessing element at index 1
+//    for(char val: v){
+//         cout<< val<<" " ;
+//     }
+
+vector<int> v;
+v.push_back(1);
+v.push_back(2); 
+v.push_back(3);
+
+cout << "Size of vector: " << v.size() << endl; // size of vector
+cout << "Capacity of vector: " << v.capacity() << endl; // capacity of vector
 
 
 
