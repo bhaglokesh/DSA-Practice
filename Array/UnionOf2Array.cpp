@@ -1,6 +1,8 @@
 #include<iostream>
 #include<vector>
 //union of 2 array Assume we have unique elements in both arrays and both arrays are sorted
+//It can have many variation 1. ans should be sorted 2. can have duplicate val etc we will se it later
+
 using namespace std;
 
 
@@ -13,10 +15,12 @@ int main(){
 
     vector<int> ans;
 
+
+    //from arr to ans
     for(int i=0;i<sizeA;i++){
         ans.push_back(arr[i]);
     }
-
+    //from brr to ans
     for(int i=0;i<sizeB;i++){
         ans.push_back(brr[i]);
     }
