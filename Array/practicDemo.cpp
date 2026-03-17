@@ -7,12 +7,12 @@ int main(){
     cin >> size;
     int arr[size]; //VLA - Variable Length Array - not allowed in C++ but some compilers allow it as an extension
 
-    //take 5 element as i/p and print their double
-    for(int i =0;i<5;i++){
+    //take size element as i/p and print their double
+    for(int i =0;i<size;i++){
         cin >> arr[i];
     }
 
-    for(int i = 0; i< 5;i++){
+    for(int i = 0; i< size;i++){
         cout << arr[i]*2 << " ";
     }
     return 0;
