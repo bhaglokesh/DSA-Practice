@@ -6,7 +6,6 @@ using namespace std;
 //declaration
 //initialization
 
-
 //Function to print array
 void printArray(int arr[], int n){
     for(int i=0; i<n;i++){
@@ -15,37 +14,23 @@ void printArray(int arr[], int n){
 
     cout<<"Printing DONE"<<endl;
 }
-int main(){
-     
-    
-    int size =4;
-    int arr[size];
-    
-    
+int main(){  
+
+    //This is bad practice - size of array should be constant
+    int size = 4;
+    int mn[size];
+    cout << mn << endl; //garbage value - address of first element of array
+    cout << &mn[0] << endl; //address of first element of array
+ 
     //Taking input in array
     for(int i=0;i<size;i++)
-       cin >> arr[i];
-    
+       cin >> mn[i];   
     //Printing Output in array
     for(int i =0;i<size;i++){
-        cout << arr[i]<< " ";
+        cout << mn[i]<< " ";
     }
-    
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
     //declaring array of size 10
     int arr[10]={1,2,3,4,5,6,7,8,9,10};
     arr[1]=0;
@@ -75,7 +60,7 @@ int main(){
     //bool array
     bool b[5] = {true,false,true,false,true};
 
-     return 0;
+    return 0;
 
 
 }
