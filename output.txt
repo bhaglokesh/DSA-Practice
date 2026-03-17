@@ -1,1 +1,3 @@
-3 4 5 
+Pair is 1 6
+Pair is 2 5
+Pair is 3 4
