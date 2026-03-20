@@ -15,4 +15,8 @@ int main(){
     }
     cout<< "The No od digits :"<<count;
     return 0;
+
+ //Second approach
+    //  int count = (int)(log10(n)+1);
+    //  return count;
 }
