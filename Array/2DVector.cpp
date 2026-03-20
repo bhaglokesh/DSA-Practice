@@ -24,8 +24,22 @@ int main(){
         cout << endl;
     }
 
+    cout<<endl << endl;
 
 
+    int row =3; 
+    int col = 5;
+    vector<vector<int> > arrb(row, vector<int>(col, -1));
+
+     for(int i = 0; i< arr.size(); i++){
+        // to get col size use arr[0]-> whe all col are same
+        //use arr[i].size() -> when all col size is diff
+        for(int j = 0 ; j< arrb[i].size(); j++){
+            cout << arrb[i][j]<< " ";
+
+        }
+        cout << endl;
+    }
 
     return 0;
 }
