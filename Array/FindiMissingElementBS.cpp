@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//TC -> log n
 
 int findMissingElement(int arr[], int n){
     int s =0;
@@ -21,11 +22,14 @@ int findMissingElement(int arr[], int n){
         }
         mid = s+(e-s)/2;
     }
+    //jab last ke liye fatta hai toh
+    // if(ans + 1 == 0)
+    //    return n+1;
     return ans +1;
 }
 int main(){
-    int arr[] ={1,2,4,5,6,7,8,9};
-    int n = sizeof(arr)/sizeof(int);
+    int arr[] ={1,2,3,4,5,6,7,8};
+    int n = 8;
 
     cout <<"Missing element is : "<< findMissingElement(arr, n);
 
