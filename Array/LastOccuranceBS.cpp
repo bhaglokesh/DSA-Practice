@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int findFirstOccurance(int arr[], int n , int target){
+int lastOccurance(int arr[], int n , int target){
     int s = 0;
     int e = n-1;
     // mid = s + (e-s)/2
@@ -16,11 +16,11 @@ int findFirstOccurance(int arr[], int n , int target){
         if(arr[mid]==target){
             //ans store
             ans = mid;
-            //left me jao
-            e = mid -1;
+            //Right me jao
+            s = mid +1;
         }
         else if(target > arr[mid]){
-            //right me jao
+            //Righy me jao
             s = mid + 1;
         }
         else if(target < arr[mid]){
@@ -34,10 +34,10 @@ int findFirstOccurance(int arr[], int n , int target){
 }
 
 int main(){
-    int arr[] = {10,30,30,30,30,30,30,30,50,60,70,80,90};
+    int arr[] = {10,30,30,30,30,30,30,40,50,60,70,80,90};
     int target = 30;
     int size = sizeof(arr)/sizeof(int);
-    int ansIndex = findFirstOccurance(arr, size, target);
+    int ansIndex = lastOccurance(arr, size, target);
     if(ansIndex == -1){
         cout << "Element not Found "<<endl;
     }
