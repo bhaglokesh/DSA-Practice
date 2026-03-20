@@ -1,8 +1,7 @@
-Rowwise: 
-1 2 3 4 
-5 6 7 8 
-9 10 11 12 
-Columnwise: 
-1 5 9 3 
-2 6 10 1 
-3 7 11 4 
+1 2 3 
+5 5 7 
+5 6 3 
+Printing Row-wise sum: 
+6
+17
+14
