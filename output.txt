@@ -1,1 +1,1 @@
-Total Occ is 6
+Missing element is : 3
