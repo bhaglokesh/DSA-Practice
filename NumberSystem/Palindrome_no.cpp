@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//https://www.geeksforgeeks.org/problems/palindrome0746/1
 
 int main(){
     int n;
