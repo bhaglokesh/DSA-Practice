@@ -8,7 +8,7 @@
             "args": [
                 "-std=c++17",
                 "-o",
-                "${fileBasenameNoExtension}.exe",
+                "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe",
                 "${file}"
             ],
             "group": {
@@ -22,7 +22,7 @@
             "command": "cmd",
             "args": [
                 "/c",
-                "g++ -std=c++17 \"${file}\" -o \"${fileBasenameNoExtension}.exe\" && \"${fileBasenameNoExtension}.exe\" < input.txt > output.txt"
+                "g++ -std=c++17 \"${file}\" -o \"${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe\" && \"${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe\" < input.txt > output.txt"
             ],
             "group": {
                 "kind": "build",
