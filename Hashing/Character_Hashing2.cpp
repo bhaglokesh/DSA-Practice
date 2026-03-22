@@ -6,7 +6,7 @@
 
 
 🚀 Approach:
-- 
+- when you want to hash all char use 256
 
 ⚠️ Edge Cases:
 - if it dosent mention exclusitivity of character 
