@@ -27,7 +27,7 @@ int main() {
         cin >> arr[i];
     }
 
-    //precompute
+    //precompute create hash table
     int hash[13] ={0};
     for(int i =0; i<n;i++){
         hash[arr[i]] +=1;
@@ -41,6 +41,6 @@ int main() {
         //fetch
         cout << hash[number] << endl;
     }
-    
+
     return 0;
 }
