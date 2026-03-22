@@ -28,6 +28,8 @@ int main() {
     }
 
     //precompute create hash table
+    //yaha pe jo array declar kiya hai wo max 10^6 tak hi ho sakta hai
+    //10^7 --> No , inside main -> else can give segmentation fault
     int hash[13] ={0};
     for(int i =0; i<n;i++){
         hash[arr[i]] +=1;
