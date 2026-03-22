@@ -13,7 +13,7 @@ op-> 9 13 20 24 46 52
 ⚠️ Edge Cases:
 - 
 
-⏱ TC:
+⏱ TC: O(n^2)-> Best,worst, avg -> same
 📦 SC:
 */
 
