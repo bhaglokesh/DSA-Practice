@@ -13,7 +13,7 @@
 ⚠️ Edge Cases:
 - Store sorted
 
-⏱ TC:
+⏱ TC: 2N -> O(n)
 📦 SC:
 */
 
@@ -24,22 +24,26 @@ int main() {
     int n; //no of elem in array
     cin >> n;
     int arr[n];
+    map<int, int> map; //can merge in this loop also
     for(int i = 0;i<n;i++){
         cin >> arr[i]; 
+         map[arr[i]]++; //later added
     }
 
     //pre-compute create hash
     //you can also do map<long, long> -> for big val
+   /*
     map<int, int> map; 
     for(int i = 0;i<n;i++){
         map[arr[i]]++;
     }
+    */ 
 
     //iterator on map to check ke ye sorted hai
-    for(auto it : map){
-        cout << it.first << "->" <<it.second << endl;
+    // for(auto it : map){
+    //     cout << it.first << "->" <<it.second << endl;
 
-    }
+    // }
 
 
     int q; //no of elem to be search
