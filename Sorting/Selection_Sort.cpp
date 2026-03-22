@@ -11,7 +11,7 @@ op-> 9 13 20 24 46 52
 - similarly increase it by one etc...
 
 ⚠️ Edge Cases:
-- 
+- https://www.youtube.com/watch?v=g-PGLbMth_g
 
 ⏱ TC: O(n^2)-> Best,worst, avg -> same
 📦 SC:
