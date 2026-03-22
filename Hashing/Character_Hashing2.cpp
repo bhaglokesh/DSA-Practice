@@ -9,7 +9,9 @@
 - 
 
 ⚠️ Edge Cases:
-- 
+- if it dosent mention exclusitivity of character 
+then took 256 .
+- if mention small case took 26 
 
 ⏱ TC:
 📦 SC:
