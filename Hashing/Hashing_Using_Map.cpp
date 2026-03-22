@@ -19,6 +19,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+//map store all the value in sorted order 
 int main() {
     int n; //no of elem in array
     cin >> n;
@@ -33,6 +34,13 @@ int main() {
     for(int i = 0;i<n;i++){
         map[arr[i]]++;
     }
+
+    //iterator on map to check ke ye sorted hai
+    for(auto it : map){
+        cout << it.first << "->" <<it.second << endl;
+
+    }
+
 
     int q; //no of elem to be search
     cin >> q;
