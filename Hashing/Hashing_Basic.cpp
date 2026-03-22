@@ -1,5 +1,5 @@
 /*
-🧠 Problem: Hashing_Basic
+🧠 Problem: Hashing_Basic -> Number Hashing
 
 💡 Key Idea:
 - we use another array to stor count of no of 
