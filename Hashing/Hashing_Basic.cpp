@@ -18,6 +18,8 @@ occurance of element
 
 #include <bits/stdc++.h>
 using namespace std;
+//agar wo hash wala array yaha declare kiya to maz 10^7 ho sakta hai
+// int arr[1e7]---> 10^7
 
 int main() {
     int n;
