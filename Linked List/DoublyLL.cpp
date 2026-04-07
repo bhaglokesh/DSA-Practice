@@ -16,6 +16,8 @@
 */
 
 #include <bits/stdc++.h>
+using namespace std;
+
 class Node{
     public:
     int data;
@@ -23,9 +25,9 @@ class Node{
     Node* back;
 
     public:
-    Node(int data, Node* next, Node* back1){
-        data = data;
-        next = next;
+    Node(int data1, Node* next1, Node* back1){
+        data = data1;
+        next = next1;
         back = back1;
     }
     //structure or class can have many 
@@ -40,24 +42,23 @@ class Node{
 };
 
 //array to doubly LL
-Node* arrayToDoublyLL(vector<int> arr){
+Node* arrayToDoublyLL(vector<int> &arr){
     Node* head = new Node(arr[0]);
     Node* prev = head;
     for(int i=1; i<arr.size(); i++){
-        Node* temp = new Node(arr[i], nullptr,prev);
+        Node* temp = new Node(arr[i],nullptr,prev);
         prev->next = temp;
         prev = temp;
     }
     return head;
-}
+} 
 //print LL
 void printDoublyLL(Node* head){
-    while(head!=nullptr){
+    while(head!=NULL){
         cout<< head->data<<" ";
         head = head->next;
     }
 }
-using namespace std;
 int main() {
     vector<int> arr ={12,5,8,7};
     Node* head = arrayToDoublyLL(arr);
